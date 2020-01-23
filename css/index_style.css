@@ -1,0 +1,422 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    direction: rtl;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+.Home
+{
+    height: 42rem;
+}
+.Home .sliderLayer
+{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+.Home .Slide_1
+{
+    position: relative;
+    height: 100%;
+    background:url('../images/slider1.jpg');
+    background-size: 100% 100%;
+}
+.Home .Slide_2
+{
+    height: 100%;
+    background-image:url('../images/slider1.jpg');
+    background-size: 100% 100%;
+}
+.Home .Slide_3
+{
+    height: 100%;
+    background-image:url('../images/slider1.jpg');
+    background-size: 100% 100%;
+}
+.Home img
+{
+    height: 110px;
+}
+.carousel-item
+{
+    height: 100% !important;
+}
+.Home .navbar a,.Home .navIcon
+{
+    color: rgb(0,96,44);
+    font-size: 1.3rem !important;
+}
+.navIcon
+{
+    margin-top:1rem!important; 
+}
+.Home .desc
+{
+    color: white;
+    text-align: right;
+}
+.Home .desc h1
+{
+    font-size: 3.2rem !important;
+    font-weight: 600;
+}
+.Home .desc h2
+{
+    font-size: 2.5rem !important;
+    font-weight: 400;
+}
+.Home .desc p
+{
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.home .desc
+{
+    position: relative;
+}
+.text-white
+{
+    color: white !important;
+}
+.text-green
+{
+    color:rgb(0,96,44) !important;
+}
+.home .headFooterButtons
+{
+    position: absolute;
+    bottom: 0;
+}
+.headFooterButtons a
+{
+    cursor: pointer;
+    font-size: 1.3rem !important;
+    background-color: white !important;
+    padding:1rem 1rem;
+    transition: background-color 0s,color 0s;
+}
+.headFooterButtons a:hover
+{
+    background-color:rgb(186, 156,92) !important;
+    color: white !important;
+}
+.Home .Slide_1 .border-bottom , .Home .Slide_2 .border-bottom, .Home .Slide_3 .border-bottom
+{
+    border-bottom: solid 1px white !important;
+}
+.j
+{
+    width: 48%;
+}
+.bg-gold
+{
+    background-color:rgb(186, 156,92);
+}
+.bg-darkGray
+{
+    background-color: rgb(48,49,50);
+}
+.bg-Gray
+{
+    background-color: rgb(121,122,122);
+}
+.bg-lightGray
+{
+    background-color:rgb(228,228,228);
+}
+.above_nav
+{
+    background-color:rgb(186, 156,92);    
+}
+.Home .Slide_1 .navbar-brand , .Home .Slide_2 .navbar-brand  ,.Home .Slide_3 .navbar-brand ,.navbar-brand i
+{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.1rem;
+    font-weight: 900 !important;
+    letter-spacing: 3px !important;
+    line-height: 0.2rem !important;
+}
+.Home .NavLinks 
+{
+    font-size: 0.875rem !important;
+    line-height: 1.56rem !important;
+    font-weight: 400 !important; 
+    color: rgb(55, 75, 61) !important;
+}
+.Home .Desc_H h1
+{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 4.4rem !important;
+    color: white !important;
+    line-height: 2.25rem !important;
+    margin-bottom: 2.3rem !important;
+}
+.nav-link 
+{
+font-size: 0.875rem !important;
+font-weight: 600 !important;
+}
+.clr
+{
+    clear: both;
+}
+.carousel-control-prev,.carousel-control-next
+{
+height: 50px !important;
+width: 50px !important; 
+top: 50%;
+}
+.Sec1 .content h1,.Sec1 .content i
+{
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgb(48,49,50) ;
+    margin:1rem 0rem;
+    font-weight: 700;
+    line-height: 1.0909090909;
+    transition: color 0s 0s;
+}
+
+.Sec1 .content i
+{
+    font-size: 1.5rem;
+    border-color:rgb(48,49,50) !important;
+    border-width:0.2rem !important;
+    transition: border-color 0s 0s,color 0s 0s;
+}
+.Sec1 .content p
+{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 26px;
+}
+.Sec1 .content a
+{
+    cursor: pointer;
+    transition: color 0s 0s;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.0909090909;
+    transition: color 0s 0s;
+}
+.Sec1 .content .contentLine
+{
+    border:solid 1px rgb(48,49,50) !important;
+    margin-top: 1rem;
+}
+.Sec1 .content-item:hover a 
+{
+    color: rgb(0,96,44);
+}
+.Sec1 .content-item:hover h1
+{
+    color: rgb(0,96,44);
+}
+.Sec1 .content-item:hover i
+{
+    color: rgb(0,96,44);
+    border-color: rgb(0,96,44) !important;
+}
+.Sec1 .content > h1
+{
+    color: rgb(0,96,44);
+}
+.adTop
+{
+    color: rgb(0,96,44);
+    background-color: rgb(195,195,196);
+}
+.adTop h1,.adTop i
+{
+    color: rgb(0,96,44) !important;
+}
+.adTop h1
+{
+    font-size: 0.9rem ;
+    font-weight: 400 !important;
+}
+.adBottom
+{
+    background-color: rgb(228,228,228);
+}
+.books
+{
+    background:url('../images/slider1.jpg');
+    background-size: 100% 100%;
+}
+.booksDarker
+{
+    background-color: rgba(0,0,0,0.85);
+}
+.books p
+{
+    color: rgb(55, 75, 61);
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.books .borderL
+{
+    border-left: 1px solid black;
+}
+.books .bookItemLayer
+{
+    color: white;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    top:100%;
+    background-color: rgb(186, 156,92);
+    transition: top 0.2s 0s;
+}
+.bookItem
+{
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+}
+.bookItem:hover .bookItemLayer
+{
+    top:0%;
+}
+.bookItemLayer h1
+{
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 1.0909090909 rem;
+    padding: 1rem 0rem;
+}
+.bookItemLayer i
+{
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+.bookItemLayer h3
+{
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-bottom: 0.2rem;
+}
+.bookItemLayer h2
+{
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.bookItemLayer button
+{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.aboveBooks a,.aboveBooks i
+{
+    font-size:1.6rem ;
+    color: rgb(55, 75, 61);
+}
+.aboveBooks a
+{
+    text-decoration: none;
+    transition: color 0s 0s , background-color 0s 0s;
+}
+.aboveBooks i
+{
+    padding-top: 0.3rem;
+}
+.aboveBooks a:hover
+{
+color:white;
+background-color:rgb(186, 156,92);
+}
+.sec2 .new 
+{
+   border-bottom: 1px bottom black;
+}
+.sec2 .new img
+{
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+}
+.sec2 .new p
+{
+    color: rgb(0,96,44);
+    font-size: 1.1rem;
+}
+.sec2 a
+{
+    text-decoration: none;
+    color: rgb(186, 156,92) ;
+    font-size: 1.2rem;
+} 
+.sec2Footer p
+{
+    color: rgb(0,96,44);
+    font-size: 1.2rem;
+}
+.sec2Head i,.sec2Head p
+{
+    color: rgb(186, 156,92) ;
+    font-size: 1.4rem;
+}
+@media screen
+{
+    .ad
+    {
+        margin-top: 1rem;
+    }
+
+}
+.x
+{
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 9999999999;
+}
+.search
+{
+    background-color: rgb(48,49,50);
+}
+.search ::-webkit-input-placeholder { 
+    color: white;
+  }
+  
+  .search :-ms-input-placeholder { 
+    color: white;
+  }
+  
+  .search::placeholder {
+    color: white;
+  }
+  .search 
+  {
+      font-size: 1.2rem;
+  }
+  .count {
+    width: 60px;
+    height: 60px;
+    background: lightgray;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: verdana;
+    float: left;
+    margin: 30px;
+    text-shadow: 1px 1px black;
+    -webkit-box-shadow: 0px 0px 72px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 72px -9px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 72px -9px rgba(0,0,0,0.75);}
